@@ -1,0 +1,100 @@
+body {
+
+    overflow-x: hidden;
+}
+#page, body {
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+
+    color: #5b5b5b;
+}
+.white{
+    color: #fff!important;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw700{
+    font-weight: 700;
+}
+.resposive-img{
+    max-width: 100%;
+}
+.pt100{
+    padding-top: 100px;
+}
+.text-right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Pangram Light";
+    src: url(../fonts/Pangram-Light.otf) format("truetype");
+}
+@font-face {
+    font-family: "Pangram Bold";
+    src: url(../fonts/Pangram-ExtraBold.otf) format("truetype");
+}
+.pangram{
+    font-family: 'Pangram Light', sans-serif;
+}
+.pangram-bold{
+    font-family: 'Pangram Bold', sans-serif;
+}
