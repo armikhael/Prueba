@@ -1,6 +1,9 @@
 body {
-
     overflow-x: hidden;
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
 #page, body {
     overflow-x: hidden;
@@ -24,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 .pt100{
     padding-top: 100px;
 }
+.pt150{
+    padding-top: 150px;
+}
 .text-right{
     text-align: right;
 }
@@ -31,6 +37,92 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+#mainNav{
+    background-color: #232f32;
+}
+header.masthead {
+    background-image: url(../img/home/home.jpg);
+}
+.descrip-home-1{
+    text-align: justify;
+}
+.descrip-home-2{
+    text-align: justify;
+}
+.title-home-1, .title-home-2{
+    font-weight: 900;
+    color: #fbc831;
+}
+.img-home{
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d6d6d6;
+}
+.img-home-2{
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d6d6d6;
+    position: relative;
+    z-index: 2;
+}
+.topbar {
+    background: #fbc831;
+    color: #fff;
+    text-align: center;
+}
+.nav-sing-off{
+    text-align: right;
+    padding-right: 5px;
+    font-size: 40px;
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+.header-title{
+    text-align: center;
+    color:#fff;
+    text-transform:uppercase;
+    font-size: 100px!important;
+}
+.header-sub-title{
+    text-align: center;
+    color:#fbc831;
+    text-transform:uppercase;
+}
+.header-descrip{
+    color:#212121;
+    text-align: center;
+}
+.title-hu{
+    font-size: 60px;
+}
+.bg-footer{
+    background-color: #303d41;
+}
+.footer-title{
+    color: #fff;
+    text-align: center;
+}
+.footer-sub-title{
+    color: #b5b5b5;
+    text-align: center;
+}
+.footer-title-2{
+    color: #fbc831;
+    text-align: center;
+}
+.title-footer-bg{
+    text-align: center;
+    color: #b5b5b5;
+}
+.hg-footer{
+    background: #232f32;
+    padding-top: 15px;
+
+}
+.yg-footer{
+    padding: 100px 0;
+}
 
 
 
@@ -45,34 +137,80 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 776px){
+    .title-home-1{
+        font-weight: 900;
+        font-size: 65px;
+        margin-left: -35%;
+    }
+    .title-home-2{
+        font-weight: 900;
+        font-size: 65px;
+        margin-right: -35%;
+        position: relative;
+        text-align: right;
+        z-index: 2;
+    }
+    .descrip-home-2{
+        text-align: right;
+    }
+    .prt100{
+        padding-top: 100px;
+    }
+    .header-title{
+        text-align: left;
+        font-size: 200px!important;
+        color:#fff;
+        text-transform:uppercase;
+    }
+    .header-sub-title{
+        text-align: left;
+        font-size: 60px!important;
+        color:#fbc831;
+        text-transform:uppercase;
+        margin-top: -30px!important;
+    }
+    .header-descrip{
+        color:#212121;
+        text-align: left;
+    }
+    .footer-title{
+        color: #fff;
+        text-align: left;
+    }
+    .footer-sub-title{
+        text-align: left;
+        margin-left: -50px;
+    }
+    .footer-title-2{
+        color: #fbc831;
+        text-align: left;
+    }
+}
 
 @media (min-width: 992px){
-
+    #mainNav {
+        border-color: transparent;
+        background-color: #232f32;
+        padding-top: 65px;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0px;
+    }
+    #mainNav.navbar-shrink {
+        border-bottom: 1px solid rgba(33,37,41,.1);
+        background-color: #232f32;
+    }
+    
 }
 
 
-
+@media (max-width: 900px){
+    .topbar {
+        display: none!important;
+    }
+    
+}
 
 
 
@@ -85,16 +223,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @font-face {
-    font-family: "Pangram Light";
-    src: url(../fonts/Pangram-Light.otf) format("truetype");
+    font-family: "montserrat Light";
+    src: url(../fonts/montserrat/Montserrat-Light.otf) format("truetype");
 }
 @font-face {
-    font-family: "Pangram Bold";
-    src: url(../fonts/Pangram-ExtraBold.otf) format("truetype");
+    font-family: "montserrat Bold";
+    src: url(../fonts/montserrat/Montserrat-Bold.otf) format("truetype");
 }
-.pangram{
-    font-family: 'Pangram Light', sans-serif;
+.montserrat{
+    font-family: 'montserrat Light', sans-serif;
 }
-.pangram-bold{
-    font-family: 'Pangram Bold', sans-serif;
+.montserrat-bold{
+    font-family: 'montserrat Bold', sans-serif;
 }
